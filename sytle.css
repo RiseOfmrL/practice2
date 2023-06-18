@@ -28,6 +28,15 @@ padding:5px;
 
 }
 
+.whitetopbar {
+
+display:flex;
+flex-direction:column;
+
+
+
+}
+
 .LogoandNavbar {
 
 display:flex;
@@ -121,6 +130,34 @@ margin-top:10px;
     display:flex;
     margin-top:-10px;
 
+
+
+}
+
+
+.navbar {
+
+    display:flex;
+    gap:90px;
+
+}
+
+.itemone {
+
+    display:flex;
+    margin-left:23%;
+    font-weight:700;
+    font-size:20px;
+
+
+}
+
+.item {
+
+
+    display:flex;
+    font-weight:700;
+    font-size:20px;
 
 
 }
