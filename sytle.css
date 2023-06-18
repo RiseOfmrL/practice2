@@ -161,3 +161,63 @@ margin-top:10px;
 
 
 }
+
+
+.bigredbox {
+    display:flex;
+    width:100%;
+    background-color:red;
+    justify-content:center;
+    padding:20px;
+    align-items:center;
+    gap:30px;
+
+
+}
+
+.bigredleftt {
+
+    display:flex;
+    flex-direction: column;
+    color:white;
+
+
+
+}
+
+.bigredbigwhitet {
+
+ display:flex;
+ font-size:50px;
+ margin-top:0px;
+ 
+
+
+
+
+}
+
+
+.bigredsmallwt {
+
+ display:flex;
+ font-size:20px;
+ margin-top:0px;
+
+
+}
+
+.peroxpic {
+
+    display:flex;
+
+
+}
+
+.bigredimage {
+
+    display:flex;
+    width:700px;
+    height:700px;
+
+}
