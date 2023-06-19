@@ -3,6 +3,8 @@ display:flex;
 background-color:red;
 width:100%;
 justify-content:space-between;
+padding-right:20px;
+padding-left:20px;
 
 }
 
@@ -81,7 +83,9 @@ padding:40px;
     border:none;
     width:100px;
     text-align:center;
-    align-self:center;
+    align-items:center;
+    justify-content:center;
+
 
 }
 
@@ -227,14 +231,21 @@ margin-top:10px;
 
 .featuredproductsbox {
 
-
-
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    background-color:antiquewhite;
+    width:100%;
+    height:min-content;
+    padding:20px;
 
 }
 
 .featuredprodlet {
 
-
+    display:flex;
+    flex-direction:column;
+    margin-top:5%;
 
 
 }
@@ -242,14 +253,26 @@ margin-top:10px;
 
 .featuredleftt {
 
-
+    display:flex;
+    font-size:35px;
+    font-weight:800;
+    margin-top:-30px;
 
 
 }
 
 .featurebutton {
 
-
+    display:flex;
+    background-color:red;
+    color:white;
+    width:100px;
+    height:40px;
+    font-size:15px;
+    font-weight:900;
+    text-align: center;
+    margin-top:-20px;
+    align-items:center;
 
 
 
@@ -257,6 +280,13 @@ margin-top:10px;
 
 .featuresbox {
 
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    height:min-content;
+    width:180px;
+    align-self:center;
+    border: 2px solid lightgray;
 
 
 
@@ -265,6 +295,12 @@ margin-top:10px;
 
 .featureimg {
 
+    display:flex;
+    width:150px;
+    height:150px;
+    align-self:center;
+    margin-top:10px;
+    margin-bottom:15px;
 
 
 
@@ -272,7 +308,10 @@ margin-top:10px;
 
 .featuretext {
 
+    display:flex;
+    margin-top: -10px;
+    align-self:center;
 
 
-    
+
 }
