@@ -81,6 +81,7 @@ padding:40px;
     border:none;
     width:100px;
     text-align:center;
+    align-self:center;
 
 }
 
@@ -114,6 +115,7 @@ margin-top:10px;
 
     display:flex;
     flex-direction:column;
+    font-weight:700;
 
 }
 
@@ -189,8 +191,8 @@ margin-top:10px;
 
  display:flex;
  font-size:50px;
- margin-top:0px;
- 
+ margin-top:-50px;
+
 
 
 
@@ -220,4 +222,57 @@ margin-top:10px;
     width:700px;
     height:700px;
 
+}
+
+
+.featuredproductsbox {
+
+
+
+
+}
+
+.featuredprodlet {
+
+
+
+
+}
+
+
+.featuredleftt {
+
+
+
+
+}
+
+.featurebutton {
+
+
+
+
+
+}
+
+.featuresbox {
+
+
+
+
+}
+
+
+.featureimg {
+
+
+
+
+}
+
+.featuretext {
+
+
+
+    
 }
