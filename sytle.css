@@ -315,3 +315,62 @@ margin-top:10px;
 
 
 }
+
+
+.shopCatagorybar {
+
+display:flex;
+flex-direction:column;
+
+
+
+}
+
+.categoryallboxes {
+
+    display:flex;
+    justify-content:center;
+    gap:40px;
+
+
+
+}
+
+.categorybigt {
+
+    display:flex;
+    align-self:center;
+    font-size:35px;
+    font-weight:900;
+
+}
+
+
+.categorybox {
+
+    display:flex;
+    flex-direction:column;
+    border:2px solid lightgray;
+    padding:10px;
+
+
+}
+
+
+.categoryimg {
+
+    display:flex;
+    height:150px;
+    width:150px;
+
+
+}
+
+.categoryboxt {
+
+    display:flex;
+    align-self:center;
+    font-size:20px;
+
+
+}
